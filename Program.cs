@@ -13,7 +13,12 @@
             // MergeSort.printArray(arr);
 
             // Anagram.Display();
-            PrimeNumberFromRange.FindPrimeNumber();
+            //PrimeNumberFromRange.FindPrimeNumber();
+
+            PrimeNoAnagramPalindrome obj = new PrimeNoAnagramPalindrome();
+            obj.prime(0, 1000);
+            obj.checkpal();
+            obj.checkAnagram();
 
         }
     }
