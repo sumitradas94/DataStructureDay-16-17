@@ -12,7 +12,8 @@
             // Console.WriteLine("\nSorted array");
             // MergeSort.printArray(arr);
 
-            Anagram.Display();
+            // Anagram.Display();
+            PrimeNumberFromRange.FindPrimeNumber();
 
         }
     }
