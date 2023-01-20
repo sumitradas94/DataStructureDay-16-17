@@ -15,10 +15,17 @@
             // Anagram.Display();
             //PrimeNumberFromRange.FindPrimeNumber();
 
-            PrimeNoAnagramPalindrome obj = new PrimeNoAnagramPalindrome();
-            obj.prime(0, 1000);
-            obj.checkpal();
-            obj.checkAnagram();
+            //PrimeNoAnagramPalindrome obj = new PrimeNoAnagramPalindrome();
+            // obj.prime(0, 1000);
+            //obj.checkpal();
+            //obj.checkAnagram();
+
+            // FindYourNumber obj = new FindYourNumber();
+            // obj.GuessNumber(16);
+            // obj.Question();
+
+            CustomiseMessage obj = new CustomiseMessage();
+            obj.Display();
 
         }
     }
